@@ -2,7 +2,16 @@ var mySwiper=new Swiper(".swiper-container",{
 	direction:"vertical",
 	loop:true,
 	initialSlide:0,
+	// onInit:function(swiper){
+	// 	swiperAnimateCache(swiper);
+	// 	swiperAnimate(swiper);
+	// },
+	// onSlideChangeEnd:function(swiper){
+	// 	swiperAnimate(swiper);
+	// }
 });
+
+
 
 ~function(){
 	var desW=640,
@@ -28,7 +37,7 @@ var mySwiper=new Swiper(".swiper-container",{
 		music_logo.style.display="block";
 	}
 	setTimeout(function(){
-		//myAudio.play();
+		myAudio.play();
 	},2000);
 	music_logo.onclick=function(){
 		if(myAudio.paused){

@@ -61,7 +61,7 @@ html{
 	font-weight: normal;
 	text-align: center;
 	color: #eee;
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	margin-bottom: 0.3rem;
 	opacity: 0;
 }
@@ -85,7 +85,7 @@ html{
 	position: absolute;
 	left: 50%;
 	margin-left: -1.75rem;
-	top:4rem;
+	top:3.5rem;
 	opacity: 0;
 }
 #head_wrapper img{
@@ -140,14 +140,14 @@ html{
 h2{
 	font-size:0.5rem;
 	color: #eee;
-	margin-top:1rem;
+	margin-top:0.75rem;
 	text-align: center;
 	font-weight: normal;
 }
 .img_wrapper{
 	width: 4.5rem;
 	position: absolute;
-	top: 2rem;
+	top: 1.5rem;
 	left: 50%;
 	margin-left:-2.25rem;
 
