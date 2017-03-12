@@ -221,7 +221,7 @@ h2{
 #skills{
 	position: absolute;
 	width: 100%;
-	bottom: 0.5rem;
+	bottom: 0.2rem;
 	padding-left:0.5rem;
 }
 #skills>div{
@@ -381,92 +381,7 @@ h2{
 .coments_4 p{
   margin-top: 0.1rem;
 }
-@-webkit-keyframes coment1{
-  from{
-    opacity:0;
-    left:0.5rem;
-    top:0.5rem;
-  }
-  30%{
-    opacity:1;
-    top:3rem;
-    left:3rem;
-  }
-  to{
-    opacity:1;
-    left:0.5rem;
-    top:0.5rem;
-  }
-}
 
-@keyframes coment1{
-  from{
-    opacity:0;
-    left:0.5rem;
-    top:0.5rem;
-  }
-  30%{
-    opacity:1;
-    top:3rem;
-    left:3rem;
-  }
-  to{
-    opacity:1;
-    left:0.5rem;
-    top:0.5rem;
-  }
-}
-@-webkit-keyframes coment2{
-  from{
-    opacity:0;
-    right:0.5rem;
-    top:1rem;
-  }
-  30%{
-    opacity:1;
-    right:4rem;
-    top:3rem;
-  }
-  to{
-    opacity:1;
-    right:0.5rem;
-    top:1rem;
-  }
-}
-@-webkit-keyframes coment3{
-  from{
-    opacity:0;
-    left: 0.6rem;
-    bottom:1.2rem;
-  }
-  30%{
-    opacity:1;
-    left: 4rem;
-    bottom:3rem;
-  }
-  to{
-    opacity:1;
-    left: 0.6rem;
-    bottom:1.2rem;
-  }
-}
-@-webkit-keyframes coment4{
-  from{
-    opacity:0;
-    right: 0.7rem;
-    bottom:1.1rem;
-  }
-  30%{
-    opacity:1;
-    right:4rem;
-    bottom:4rem;
-  }
-  to{
-    opacity:1;
-    right: 0.7rem;
-    bottom:1.1rem;
-  }
-}
 #page4 .coments_1{
   -webkit-animation: coment1 1s linear 3s forwards;
   -o-animation: coment1 1s linear 3s forwards;
@@ -909,5 +824,143 @@ h2{
     -webkit-transform: none;
     transform: none;
     opacity: 1;
+  }
+}
+/*第四屏样式*/
+@-webkit-keyframes coment1{
+  from{
+    opacity:0;
+    left:0.5rem;
+    top:0.5rem;
+  }
+  30%{
+    opacity:1;
+    top:3rem;
+    left:3rem;
+  }
+  to{
+    opacity:1;
+    left:0.5rem;
+    top:0.5rem;
+  }
+}
+
+@keyframes coment1{
+  from{
+    opacity:0;
+    left:0.5rem;
+    top:0.5rem;
+  }
+  30%{
+    opacity:1;
+    top:3rem;
+    left:3rem;
+  }
+  to{
+    opacity:1;
+    left:0.5rem;
+    top:0.5rem;
+  }
+}
+@-webkit-keyframes coment2{
+  from{
+    opacity:0;
+    right:0.5rem;
+    top:1rem;
+  }
+  30%{
+    opacity:1;
+    right:4rem;
+    top:3rem;
+  }
+  to{
+    opacity:1;
+    right:0.5rem;
+    top:1rem;
+  }
+}
+@keyframes coment2{
+  from{
+    opacity:0;
+    right:0.5rem;
+    top:1rem;
+  }
+  30%{
+    opacity:1;
+    right:4rem;
+    top:3rem;
+  }
+  to{
+    opacity:1;
+    right:0.5rem;
+    top:1rem;
+  }
+}
+@-webkit-keyframes coment3{
+  from{
+    opacity:0;
+    left: 0.6rem;
+    bottom:1.2rem;
+  }
+  30%{
+    opacity:1;
+    left: 4rem;
+    bottom:3rem;
+  }
+  to{
+    opacity:1;
+    left: 0.6rem;
+    bottom:1.2rem;
+  }
+}
+@keyframes coment3{
+  from{
+    opacity:0;
+    left: 0.6rem;
+    bottom:1.2rem;
+  }
+  30%{
+    opacity:1;
+    left: 4rem;
+    bottom:3rem;
+  }
+  to{
+    opacity:1;
+    left: 0.6rem;
+    bottom:1.2rem;
+  }
+}
+@-webkit-keyframes coment4{
+  from{
+    opacity:0;
+    right: 0.7rem;
+    bottom:1.1rem;
+  }
+  30%{
+    opacity:1;
+    right:4rem;
+    bottom:4rem;
+  }
+  to{
+    opacity:1;
+    right: 0.7rem;
+    bottom:1.1rem;
+  }
+}
+@keyframes coment4{
+  from{
+    opacity:0;
+    right: 0.7rem;
+    bottom:1.1rem;
+  }
+  30%{
+    opacity:1;
+    right:4rem;
+    bottom:4rem;
+  }
+  to{
+    opacity:1;
+    right: 0.7rem;
+    bottom:1.1rem;
   }
 }
