@@ -10,7 +10,7 @@ var timer1;
 var timer2;
 var arrTimer1=[];
 var arrTimer2=[];
-
+//初始化swiper
 var mySwiper=new Swiper(".swiper-container",{
 	direction:"vertical",
 	loop:true,
@@ -27,7 +27,7 @@ var mySwiper=new Swiper(".swiper-container",{
 			pages[swiper.activeIndex].id="page"+swiper.activeIndex;
 		}
 		if(swiper.realIndex==2){
-			 timer2=setTimeout(skillsMove,2000);
+			 timer2=setTimeout(skillsMove,4000);
 			 arrTimer2.push(timer2);
 		}else{
 			// 循环清除所有timeout定时器
@@ -124,7 +124,7 @@ function skillMove(num,cur,fn){
 		music_logo.style.display="block";
 	}
 	setTimeout(function(){
-		//myAudio.play();
+		myAudio.play();
 	},2000);
 	music_logo.onclick=function(){
 		if(myAudio.paused){

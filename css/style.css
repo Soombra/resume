@@ -323,14 +323,13 @@ h2{
 }
 .coments_wrapper{
 	width: 100%;
-	height: 6rem;
-	border: 2px solid red;
+	height: 7rem;
 	position: absolute;
-	bottom: 0;
+	top:4.25rem;
 }
 .coments_wrapper div{
 	box-sizing: border-box;
-	display:absolute;
+	position:absolute;
 	font-size:0.4rem;
 	text-align: center;
 	padding:0.2rem;
@@ -340,30 +339,144 @@ h2{
 	float:left;
 	
 }
-#coments_1{
+.coments_1{
 	color:#ff3300;
 	background:#ffff33;
 	padding-top:0.3rem;
+  left:0.5rem;
+  top:0.5rem;
+  opacity: 0;
 }
-#coments_2{
+.coments_2{
 	color: #993300;
 	background:#ff6666;
 	padding-top:0.6rem;
+  right:0.5rem;
+  top:1rem;
+  opacity: 0;
 }
-#coments_3{
+.coments_3{
 	color: #eee;
 	background-color: #9900cc;
 	padding-top:0.6rem;
+  left: 0.6rem;
+  bottom:1.2rem;
+  opacity: 0;
 }
-#coments_4{
+.coments_4{
 	color: #ffff00;
 	background-color:#3333ff;
 	padding-top: 0.35rem;
+  right: 0.7rem;
+  bottom: 0.5rem;
+  opacity: 0;
+}
+@-webkit-keyframes coment1{
+  from{
+    opacity:0;
+    left:0.5rem;
+    top:0.5rem;
+  }
+  30%{
+    opacity:1;
+    top:3rem;
+    left:3rem;
+  }
+  to{
+    opacity:1;
+    left:0.5rem;
+    top:0.5rem;
+  }
 }
 
-
-
-
+@keyframes coment1{
+  from{
+    opacity:0;
+    left:0.5rem;
+    top:0.5rem;
+  }
+  30%{
+    opacity:1;
+    top:3rem;
+    left:3rem;
+  }
+  to{
+    opacity:1;
+    left:0.5rem;
+    top:0.5rem;
+  }
+}
+@-webkit-keyframes coment2{
+  from{
+    opacity:0;
+    right:0.5rem;
+    top:1rem;
+  }
+  30%{
+    opacity:1;
+    right:4rem;
+    top:3rem;
+  }
+  to{
+    opacity:1;
+    right:0.5rem;
+    top:1rem;
+  }
+}
+@-webkit-keyframes coment3{
+  from{
+    opacity:0;
+    left: 0.6rem;
+    bottom:1.2rem;
+  }
+  30%{
+    opacity:1;
+    left: 4rem;
+    bottom:3rem;
+  }
+  to{
+    opacity:1;
+    left: 0.6rem;
+    bottom:1.2rem;
+  }
+}
+@-webkit-keyframes coment4{
+  from{
+    opacity:0;
+    right: 0.7rem;
+    bottom: 0.5rem;
+  }
+  30%{
+    opacity:1;
+    right:4rem;
+    bottom:4rem;
+  }
+  to{
+    opacity:1;
+    right: 0.7rem;
+    bottom: 0.5rem;
+  }
+}
+#page4 .coments_1{
+  -webkit-animation: coment1 1s linear 3s forwards;
+  -o-animation: coment1 1s linear 3s forwards;
+  animation: coment1 1s linear 3s forwards;
+}
+#page4 .coments_2{
+  -webkit-animation: coment2 1s linear 3s forwards;
+  -o-animation: coment2 1s linear 3s forwards;
+  animation: coment2 1s linear 3s forwards;
+}
+#page4 .coments_3{
+  -webkit-animation: coment3 1s linear 3s forwards;
+  -o-animation: coment3 1s linear 3s forwards;
+  animation: coment3 1s linear 3s forwards;
+}
+#page4 .coments_4{
+  -webkit-animation: coment4 1s linear 3s forwards;
+  -o-animation: coment4 1s linear 3s forwards;
+  animation: coment4 1s linear 3s forwards;
+}
 /*animation效果*/
 @-webkit-keyframes tada {
   from {
