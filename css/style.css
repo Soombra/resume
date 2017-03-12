@@ -51,7 +51,53 @@ html{
 	width: 0.7rem;
 	display: none;
 }
-
+/*编写箭头*/
+.arrow{
+  width: 1rem;
+  height: 0.5rem;
+  border: 1px solid red;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.5rem;
+  bottom: 0.4rem;
+  z-index: 20;
+  opacity: 0.3;
+  -webkit-animation: arrowMove 0.8s linear 0s infinite;
+  -o-animation: arrowMove 0.8s linear 0s infinite;
+  animation: arrowMove 0.8s linear 0s infinite;
+}
+#arrowLeft,#arrowRight{
+  position: absolute;
+  display: block;
+  width: 0.7rem;
+  height: 0.2rem;
+  border-radius: 0.1rem;
+  background:#fff;
+}
+#arrowLeft{
+  transform: rotate(-45deg);
+  left:-0.02rem;
+  top: 0.2rem;
+}
+#arrowRight{
+  transform: rotate(45deg);
+  right:-0.02rem;
+  top: 0.2rem;
+}
+@keyframes arrowMove{
+  0%{
+    bottom: 0.4rem;
+    opacity: 0.3;
+  }
+  50%{
+    bottom: 0.6rem;
+    opacity: 0.6;
+  }
+  100%{
+    bottom: 0.4rem;
+    opacity: 0.3;
+  }
+}
 /*编写第一屏样式*/
 
 #title h1{
