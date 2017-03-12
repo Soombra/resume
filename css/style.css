@@ -196,24 +196,24 @@ h2{
 	animation: lightSpeedIn 1s linear 2s forwards;
 }
 #page2 #information p:nth-of-type(1){
+	-webkit-animation: zoomInLeft 1s linear 4s forwards;
+	-o-animation: zoomInLeft 1s linear 4s forwards;
+	animation: zoomInLeft 1s linear 4s forwards;
+}
+#page2 #information p:nth-of-type(2){
 	-webkit-animation: zoomInLeft 1s linear 5s forwards;
 	-o-animation: zoomInLeft 1s linear 5s forwards;
 	animation: zoomInLeft 1s linear 5s forwards;
 }
-#page2 #information p:nth-of-type(2){
+#page2 #information p:nth-of-type(3){
 	-webkit-animation: zoomInLeft 1s linear 6s forwards;
 	-o-animation: zoomInLeft 1s linear 6s forwards;
 	animation: zoomInLeft 1s linear 6s forwards;
 }
-#page2 #information p:nth-of-type(3){
+#page2 #information p:nth-of-type(4){
 	-webkit-animation: zoomInLeft 1s linear 7s forwards;
 	-o-animation: zoomInLeft 1s linear 7s forwards;
 	animation: zoomInLeft 1s linear 7s forwards;
-}
-#page2 #information p:nth-of-type(4){
-	-webkit-animation: zoomInLeft 1s linear 8s forwards;
-	-o-animation: zoomInLeft 1s linear 8s forwards;
-	animation: zoomInLeft 1s linear 8s forwards;
 }
 
 
@@ -254,8 +254,8 @@ h2{
 	background: #cc6600;
 	border-radius: 0.1rem;
 	width:0;
-	height: 0.5rem;
-	margin-top:0.2rem;
+	height: 0.7rem;
+	margin-top:0.1rem;
 	margin-left: 0.1rem;
 }
 #skills>div>p{
@@ -342,34 +342,44 @@ h2{
 .coments_1{
 	color:#ff3300;
 	background:#ffff33;
-	padding-top:0.3rem;
   left:0.5rem;
   top:0.5rem;
   opacity: 0;
 }
+.coments_1 p{
+  margin-top: 0.1rem;
+}
 .coments_2{
 	color: #993300;
 	background:#ff6666;
-	padding-top:0.6rem;
   right:0.5rem;
   top:1rem;
   opacity: 0;
 }
+.coments_2 p{
+  margin-top:0.4rem;
+}
 .coments_3{
 	color: #eee;
 	background-color: #9900cc;
-	padding-top:0.6rem;
+	padding-top:1rem;
   left: 0.6rem;
   bottom:1.2rem;
   opacity: 0;
 }
+.coments_3 p{
+  margin-top: 0.4rem;
+}
 .coments_4{
 	color: #ffff00;
 	background-color:#3333ff;
-	padding-top: 0.35rem;
+	padding-top: 0.7rem;
   right: 0.7rem;
-  bottom: 0.5rem;
+  bottom:1.1rem;
   opacity: 0;
+}
+.coments_4 p{
+  margin-top: 0.1rem;
 }
 @-webkit-keyframes coment1{
   from{
@@ -444,7 +454,7 @@ h2{
   from{
     opacity:0;
     right: 0.7rem;
-    bottom: 0.5rem;
+    bottom:1.1rem;
   }
   30%{
     opacity:1;
@@ -454,7 +464,7 @@ h2{
   to{
     opacity:1;
     right: 0.7rem;
-    bottom: 0.5rem;
+    bottom:1.1rem;
   }
 }
 #page4 .coments_1{
