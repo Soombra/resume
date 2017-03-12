@@ -100,6 +100,7 @@ function skillMove(num,cur,fn){
 		arrTimer1.push(timer1);
 }
 
+//动态计算rem值
 ~function(){
 	var desW=640,
 		winW=document.documentElement.clientWidth,
@@ -113,6 +114,7 @@ function skillMove(num,cur,fn){
 	document.documentElement.style.fontSize=ratio*100+"px";
 }();
 
+//设置音乐播放及音乐图标的运动
 ~function(){
 	var myAudio=document.createElement("audio");
 	myAudio.src="music/1.mp3";
