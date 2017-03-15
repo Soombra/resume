@@ -79,11 +79,11 @@ function skillMove(num,cur,fn){
 		current_p.innerHTML=wit+"%";
 		//根据数值的变化来替换颜色
 		if(wit>=85){
-			current_p.style.color="#33ff00";
+			current_p.style.color="#00ff33";
 		}else if(wit>=70){
-			current_p.style.color="#ffff33";	
+			current_p.style.color="#ffff00";	
 		}else{
-			current_p.style.color="#ff3300";
+			current_p.style.color="#ff0000";
 		}
 		//根据临界值来终止宽度变化
 		if(wit==num){
